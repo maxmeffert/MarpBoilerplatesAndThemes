@@ -4,3 +4,4 @@ options:
   markdown:
     breaks: false
 pdf: true
+theme: ./theme.css

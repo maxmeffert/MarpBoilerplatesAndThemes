@@ -1,0 +1,9 @@
+/* @theme theme */
+
+@import 'default';
+
+section {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #009FDF;
+  background-color: white;
+}
