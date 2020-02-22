@@ -4,7 +4,9 @@
   "description": "Repository for slideware of .NET/CLR Garbage Collection",
   "main": "index.js",
   "scripts": {
-    "build": "npx marp slides.md"
+    "build-theme": "npx sass theme.scss theme.css",
+    "build-slides": "npx marp slides.md",
+    "build": "npm run build-theme && npm run build-slides"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/maxmeffert/FundamentalsOfDotNetCLRGarbageCollection#readme",
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.17.1"
+    "@marp-team/marp-cli": "^0.17.1",
+    "sass": "^1.25.0"
   }
 }
