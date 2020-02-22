@@ -4,7 +4,7 @@
   "description": "Repository for slideware of .NET/CLR Garbage Collection",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx marp slides.md"
   },
   "repository": {
     "type": "git",
