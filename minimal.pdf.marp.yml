@@ -4,4 +4,6 @@ options:
   markdown:
     breaks: false
 pdf: true
+inputDir: ./test
+output: ./build/pdf/
 theme: ./themes/css/minimal.css

@@ -4,4 +4,6 @@ options:
   markdown:
     breaks: false
 html: true
+inputDir: ./test
+output: ./build/html/
 theme: ./themes/css/minimal.css

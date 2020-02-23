@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build-theme": "npx sass ./themes/scss/minimal.scss ./themes/css/minimal.css",
-    "build-slides": "npx marp -c minimal.pdf.marp.yml slides.md",
-    "build-slides-html": "npx marp -c minimal.html.marp.yml slides.md",
+    "build-slides": "npx marp -c minimal.pdf.marp.yml",
+    "build-slides-html": "npx marp -c minimal.html.marp.yml",
     "build": "npm run build-theme && npm run build-slides"
   },
   "repository": {
