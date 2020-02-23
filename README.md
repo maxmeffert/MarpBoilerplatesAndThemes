@@ -1,5 +1,5 @@
 # MarpBoilerplatesAndThemes
-Repository for Mapr Boilderplates and Themes
+Repository for Marp Boilderplates and Themes
 
 ## Minimal
 |Title|Headings|Itemization|
