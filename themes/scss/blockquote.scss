@@ -1,0 +1,8 @@
+// Blockquote Styles
+section { 
+  blockquote {
+    border-left: $blockquote-border-size $blockquote-border-style $blockquote-border-color;
+    padding-left: $blockquote-padding;
+    color: $blockquote-text-color;
+  }
+}

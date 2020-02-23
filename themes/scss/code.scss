@@ -1,0 +1,9 @@
+// Code Styles
+section { 
+  pre {
+    border: $code-border-size $code-border-style $code-border-color;
+    color: $code-text-color;
+    background-color: $code-background-color;
+    padding: $code-padding;
+  }  
+}

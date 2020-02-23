@@ -1,0 +1,18 @@
+// Listing Styles
+section {
+    ul,
+    ol {
+      margin: $list-margin;
+      text-align: left;
+      li {
+        font-size: $list-item-text-size;
+        li {
+          font-size: $list-item-text-size-auto-decrease;
+        }
+      }    
+    }
+  
+    ul {
+      list-style-type: square;
+    }
+}

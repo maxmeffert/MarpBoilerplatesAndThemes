@@ -72,4 +72,14 @@ $pagination-text-color: rgba($slide-text-color, 0.75);
 $list-item-text-size: $slide-text-size;
 
 
-@import 'theme.scss'
+@import 'headerfooter.scss';
+@import 'slide.scss';
+@import 'heading.scss';
+@import 'horizontalrule.scss';
+@import 'listing.scss';
+@import 'image.scss';
+@import 'hyperlink.scss';
+@import 'blockquote.scss';
+@import 'table.scss';
+@import 'code.scss';
+@import 'pagination.scss';

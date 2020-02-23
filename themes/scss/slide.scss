@@ -1,0 +1,14 @@
+// Slide Styles
+section {
+    padding: $slide-padding;
+  
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  
+    font-family: $slide-font-family;
+    font-size: $slide-text-size;
+  
+    color: $slide-text-color;
+    background-color: $slide-background-color;
+}

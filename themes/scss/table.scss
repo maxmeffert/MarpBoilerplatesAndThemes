@@ -1,0 +1,26 @@
+// Table Styles
+section {   
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+    tr {
+      background-color: $table-row-background-color;
+      border-color: $slide-text-color;
+      &:nth-child(2n) {
+        background-color: $table-second-row-background-color;
+      }
+    }
+
+    th {
+      background-color: $table-header-background-color;
+    }
+
+    th,
+    td {
+      border: $table-border-size $table-border-style $table-border-color;
+      padding: $table-cell-padding;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+// Title and Headning Styles
+section {
+    h1 {
+        font-size: $title-text-size;
+        color: $title-text-color;
+    }
+
+    h1:first-of-type {
+        margin-top: 17%;
+    }
+
+    h2 {
+        font-size: $subtitle-text-size;
+        color: $subtitle-text-color;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: $heading3-text-size;
+    }
+
+    h4 {
+        font-size: $heading4-text-size;
+    }
+
+    h5 {
+        font-size: $heading5-text-size;
+    }
+
+    h6 {
+        font-size: $heading6-text-size;
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+        border-bottom: none;
+        margin-bottom: $heading-margin-bottom;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        strong {
+        font-weight: inherit;
+        }
+    }
+}

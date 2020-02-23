@@ -1,0 +1,10 @@
+// Image Styles
+section { 
+  img {
+    border: $image-border-width $image-border-style $image-border-color;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+  }
+}

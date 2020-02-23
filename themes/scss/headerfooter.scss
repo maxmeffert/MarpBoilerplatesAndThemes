@@ -1,0 +1,24 @@
+// Header and Footer Styles
+header,
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+header {
+  top: 0;
+  padding: $header-padding;
+  height: $header-height;
+  font-size: $header-text-size;
+  color: $header-text-color;
+}
+
+footer {
+  bottom: 0;
+  padding: $footer-padding;
+  height: $footer-height;
+  font-size: $footer-text-size;
+  color: $footer-text-color;
+}
