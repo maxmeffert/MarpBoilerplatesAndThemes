@@ -4,4 +4,4 @@ options:
   markdown:
     breaks: false
 pdf: true
-theme: ./minimal.css
+theme: ./themes/css/minimal.css

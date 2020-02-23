@@ -4,7 +4,7 @@
   "description": "Repository for Mapr Boilderplates and Themes",
   "main": "index.js",
   "scripts": {
-    "build-theme": "npx sass minimal.scss minimal.css",
+    "build-theme": "npx sass ./themes/scss/minimal.scss ./themes/css/minimal.css",
     "build-slides": "npx marp slides.md",
     "build": "npm run build-theme && npm run build-slides"
   },
