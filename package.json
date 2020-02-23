@@ -4,11 +4,11 @@
   "description": "Repository for Mapr Boilderplates and Themes",
   "main": "",
   "scripts": {
-    "build-theme-minimal": "npx sass ./src/minimal.scss ./themes/minimal.css",
-    "build-slides-pdf": "npx marp -c minimal.pdf.marp.yml",
-    "build-slides-html": "npx marp -c minimal.html.marp.yml",
-    "build-slides-images": "npx marp -c minimal.img.marp.yml",
-    "buildall": "npm-run-all build-*",
+    "build:theme-minimal": "npx sass ./src/minimal.scss ./themes/minimal.css",
+    "build:slides-pdf": "npx marp -c minimal.pdf.marp.yml",
+    "build:slides-html": "npx marp -c minimal.html.marp.yml",
+    "build:slides-images": "npx marp -c minimal.img.marp.yml",
+    "build-all": "npm-run-all build:*",
     "build": "npm run build-theme-minimal && npm run build-slides-pdf"
   },
   "repository": {
