@@ -113,7 +113,6 @@ h4 strong,
 h5 strong,
 h6 strong {
   font-weight: inherit;
-  color: #48c;
 }
 
 hr {
@@ -158,6 +157,13 @@ section ol {
 section > ul,
 section > ol {
   margin-bottom: 15px;
+}
+section img {
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
 }
 section blockquote {
   border-left: 13px solid black;
