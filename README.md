@@ -1,13 +1,23 @@
 # MarpBoilerplatesAndThemes
 Repository for [Marp](https://marp.app) Boilderplates and Themes
 
+---
+
 ## Minimal
 
+A minimalistic black & white theme.
+
+### Download
+
 [minimal.css](./themes/minimal.css)
+
+### Usage
 
 ```
 npx marp --theme minimal.css presentation.md
 ```
+
+### Preview
 
 |**Title**|**Headings**|**Itemization**|
 |:-:|:-:|:-:|
