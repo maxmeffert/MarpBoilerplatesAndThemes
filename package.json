@@ -2,7 +2,7 @@
   "name": "marpboilerplatesandthemes",
   "version": "1.0.0",
   "description": "Repository for Mapr Boilderplates and Themes",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "build-theme-minimal": "npx sass ./src/minimal.scss ./themes/minimal.css",
     "build-slides-pdf": "npx marp -c minimal.pdf.marp.yml",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/maxmeffert/MarpBoilerplatesAndThemes.git"
   },
-  "author": "",
+  "author": "Maximilian Meffert",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/maxmeffert/MarpBoilerplatesAndThemes/issues"
