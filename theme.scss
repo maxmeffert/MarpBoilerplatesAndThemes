@@ -4,6 +4,11 @@
 
 // @import 'node_modules/highlight.js/styles/arta';
 
+$slide-background-color: white; // #002855;
+$slide-text-size: 1.6em;
+$slide-text-color: black; // #009FDF;
+$slide-font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 $header-height: 20px;
 $header-text-size: 12px;
 $header-padding: 12px;
@@ -11,12 +16,6 @@ $header-padding: 12px;
 $footer-height: 20px;
 $footer-text-size: 12px;
 $footer-padding: 12px;
-
-$slide-background-color: white; // #002855;
-$slide-text-size: 1.6em;
-$slide-text-color: black; // #009FDF;
-$slide-font-family: Verdana, Geneva, Tahoma, sans-serif;
-$slide-padding: $header-height $footer-height 30px 30px;
 
 $code-background-color: white; // #002855;
 $code-text-color: black; // #009FDF;
@@ -33,9 +32,7 @@ $hyperlink-color: blue;
 $hyperlink-decoration: underline;
 
 $title-text-size: 2.5em;
-$title-text-color: $slide-text-color;
 $subtitle-text-size: 1.3em;
-$subtitle-text-color: rgba($slide-text-color, 0.5);
 
 $heading3-text-size: 1.6em;
 $heading4-text-size: 1.4em;
@@ -44,7 +41,6 @@ $heading6-text-size: 1.0em;
 
 $heading-margin-bottom: 21px;
 
-$blockquote-text-color: rgba($slide-text-color, 0.75);
 $blockquote-border-color: black;
 $blockquote-border-style: solid;
 $blockquote-border-size: 13px;
@@ -60,10 +56,20 @@ $table-text-color: black;
 $table-cell-padding: 12px;
 
 $pagination-text-size: 12px;
-$pagination-text-color: black;
 $pagination-height: 20px;
 $pagination-padding: 12px;
 $pagination-content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+
+// inferred:
+$slide-padding: $header-height $footer-height 30px 30px;
+$header-text-color: rgba($slide-text-color, 0.75);
+$footer-text-color: rgba($slide-text-color, 0.75);
+$title-text-color: $slide-text-color;
+$subtitle-text-color: rgba($slide-text-color, 0.5);
+$blockquote-text-color: rgba($slide-text-color, 0.75);
+$pagination-text-color: rgba($slide-text-color, 0.75);
+
+
 
 
 h1 {
@@ -139,6 +145,7 @@ header {
   padding: $header-padding;
   height: $header-height;
   font-size: $header-text-size;
+  color: $header-text-color;
 }
 
 footer {
@@ -146,6 +153,7 @@ footer {
   padding: $footer-padding;
   height: $footer-height;
   font-size: $footer-text-size;
+  color: $footer-text-color;
 }
 
 section {
