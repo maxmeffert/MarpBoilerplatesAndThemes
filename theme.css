@@ -86,18 +86,25 @@ section {
   flex-direction: column;
   flex-wrap: nowrap;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.6em;
+  font-size: 1.5em;
   color: black;
   background-color: white;
 }
 section ul,
 section ol {
-  margin: 0 auto;
+  margin: 30px;
   text-align: left;
 }
-section > ul,
-section > ol {
-  margin-bottom: 15px;
+section ul li,
+section ol li {
+  font-size: 1.5em;
+}
+section ul li li,
+section ol li li {
+  font-size: 90%;
+}
+section ul {
+  list-style-type: square;
 }
 section img {
   border: 1px solid black;

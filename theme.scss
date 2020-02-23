@@ -5,7 +5,7 @@
 // @import 'node_modules/highlight.js/styles/arta';
 
 $slide-background-color: white; // #002855;
-$slide-text-size: 1.6em;
+$slide-text-size: 1.5em;
 $slide-text-color: black; // #009FDF;
 $slide-font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -60,6 +60,9 @@ $pagination-height: 20px;
 $pagination-padding: 12px;
 $pagination-content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 
+$list-margin: 30px;
+$list-item-text-size-auto-decrease: 90%;
+
 // inferred:
 $slide-padding: $header-height $footer-height 30px 30px;
 $header-text-color: rgba($slide-text-color, 0.75);
@@ -68,6 +71,8 @@ $title-text-color: $slide-text-color;
 $subtitle-text-color: rgba($slide-text-color, 0.5);
 $blockquote-text-color: rgba($slide-text-color, 0.75);
 $pagination-text-color: rgba($slide-text-color, 0.75);
+$list-item-text-size: $slide-text-size;
+
 
 
 
@@ -175,13 +180,18 @@ section {
   ul,
   ol {
     // border: 1px solid red;
-    margin: 0 auto;
+    margin: $list-margin;
     text-align: left;
+    li {
+      font-size: $list-item-text-size;
+      li {
+        font-size: $list-item-text-size-auto-decrease;
+      }
+    }    
   }
 
-  > ul,
-  > ol {
-    margin-bottom: 15px;
+  ul {
+    list-style-type: square;
   }
 
   img {
