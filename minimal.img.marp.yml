@@ -6,4 +6,4 @@ options:
 images: png
 inputDir: ./test
 output: ./images/
-theme: ./themes/css/minimal.css
+theme: ./themes/minimal.css
