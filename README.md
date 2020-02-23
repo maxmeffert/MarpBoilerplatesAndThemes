@@ -14,6 +14,6 @@ Repository for Mapr Boilderplates and Themes
 |:-:|:-:|:-:|
 | <img src="./images/slides.007.png" width="200"/>| <img src="./images/slides.008.png" width="200"/>| <img src="./images/slides.009.png" width="200"/>
 
-|Code Block||
+|Code Block|||
 |:-:|:-:|:-:|
 | <img src="./images/slides.010.png" width="200"/>||
