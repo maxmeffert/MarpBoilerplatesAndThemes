@@ -2,6 +2,13 @@
 Repository for [Marp](https://marp.app) Boilderplates and Themes
 
 ## Minimal
+
+[minimal.css](./themes/minimal.css)
+
+```
+npx marp --theme minimal.css presentation.md
+```
+
 |**Title**|**Headings**|**Itemization**|
 |:-:|:-:|:-:|
 |<img src="./images/slides.001.png" width="200"/>|<img src="./images/slides.002.png" width="200"/>|<img src="./images/slides.003.png" width="200"/>|
