@@ -3,7 +3,7 @@ options:
   looseYAML: false
   markdown:
     breaks: false
-images: png
-inputDir: ./test
-output: ./images/
-theme: ./themes/minimal.css
+html: true
+inputDir: ../test
+output: ../test
+theme: ../themes/minimal.css
