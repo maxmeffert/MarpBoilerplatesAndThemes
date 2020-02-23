@@ -158,4 +158,4 @@ section::after {
   content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
 }
 
-/*# sourceMappingURL=theme.css.map */
+/*# sourceMappingURL=minimal.css.map */

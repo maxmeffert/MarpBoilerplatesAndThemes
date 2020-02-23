@@ -1,0 +1,75 @@
+/* @theme minimal */
+
+// @import 'node_modules/highlight.js/styles/arta';
+
+$slide-background-color: white;
+$slide-text-size: 1.5em;
+$slide-text-color: black;
+$slide-font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+$header-height: 20px;
+$header-text-size: 12px;
+$header-padding: 12px;
+
+$footer-height: 20px;
+$footer-text-size: 12px;
+$footer-padding: 12px;
+
+$code-background-color: white;
+$code-text-color: black;
+$code-border-color: black;
+$code-border-size: 1px;
+$code-border-style: solid;
+$code-padding: 5px;
+
+$image-border-color: black;
+$image-border-style: solid;
+$image-border-width: 1px;
+
+$hyperlink-color: blue;
+$hyperlink-decoration: underline;
+
+$title-text-size: 2.5em;
+$subtitle-text-size: 1.3em;
+
+$heading3-text-size: 1.6em;
+$heading4-text-size: 1.4em;
+$heading5-text-size: 1.2em;
+$heading6-text-size: 1.0em;
+
+$heading-margin-bottom: 21px;
+
+$blockquote-border-color: black;
+$blockquote-border-style: solid;
+$blockquote-border-size: 13px;
+$blockquote-padding: 13px;
+
+$table-header-background-color: darkgrey;
+$table-row-background-color: white;
+$table-second-row-background-color: lightgrey;
+$table-border-color: black;
+$table-border-style: solid;
+$table-border-size: 1px;
+$table-text-color: black;
+$table-cell-padding: 12px;
+
+$pagination-text-size: 12px;
+$pagination-height: 20px;
+$pagination-padding: 12px;
+$pagination-content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+
+$list-margin: 30px;
+$list-item-text-size-auto-decrease: 90%;
+
+// inferred:
+$slide-padding: $header-height $footer-height 30px 30px;
+$header-text-color: rgba($slide-text-color, 0.75);
+$footer-text-color: rgba($slide-text-color, 0.75);
+$title-text-color: $slide-text-color;
+$subtitle-text-color: rgba($slide-text-color, 0.5);
+$blockquote-text-color: rgba($slide-text-color, 0.75);
+$pagination-text-color: rgba($slide-text-color, 0.75);
+$list-item-text-size: $slide-text-size;
+
+
+@import 'theme.scss'
