@@ -1,0 +1,9 @@
+allowLocalFiles: true
+options:
+  looseYAML: false
+  markdown:
+    breaks: false
+images: png
+inputDir: ./test
+output: ./images/
+theme: ./themes/css/minimal.css
