@@ -1,9 +1,195 @@
 /* @theme theme */
-@import-theme "default";
+/*
+Date: 17.V.2011
+Author: pumbur <pumbur@pumbur.net>
+*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+}
+
+.hljs,
+.hljs-subst {
+  color: #aaa;
+}
+
+.hljs-section {
+  color: #fff;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-meta {
+  color: #444;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-regexp {
+  color: #ffcc33;
+}
+
+.hljs-number,
+.hljs-addition {
+  color: #00cc66;
+}
+
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-link {
+  color: #32aaee;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #6644aa;
+}
+
+.hljs-title,
+.hljs-variable,
+.hljs-deletion,
+.hljs-template-tag {
+  color: #bb1166;
+}
+
+.hljs-section,
+.hljs-doctag,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+h1 {
+  border-bottom: none;
+  font-size: 1.6em;
+}
+
+h2 {
+  border-bottom: none;
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h4 {
+  font-size: 1.05em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+}
+
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+  font-weight: inherit;
+  color: #48c;
+}
+
+hr {
+  height: 0;
+  padding-top: 0.25em;
+}
+
+header,
+footer {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+  height: 20px;
+  padding: 12px;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
 section {
+  padding: 35px 35px 30px 30px;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #009FDF;
-  background-color: red;
+  font-size: 1.4em;
+  color: black;
+  background-color: white;
+}
+section ul,
+section ol {
+  margin: 0 auto;
+  text-align: left;
+}
+section > ul,
+section > ol {
+  margin-bottom: 15px;
+}
+section blockquote {
+  border-left: 13px solid black;
+  padding-left: 13px;
+  color: #939699;
+}
+section table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+section table tr {
+  background-color: white;
+  border-color: black;
+}
+section table tr:nth-child(2n) {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+section table th {
+  background-color: grey;
+}
+section table th,
+section table td {
+  border: 1px solid black;
+  padding: 12px;
+}
+section pre {
+  border: 1px solid black;
+  box-shadow: 5px 5px black;
+  color: black;
+  background-color: white;
+}
+
+section::after {
+  position: absolute;
+  padding: 12px;
+  height: 20px;
+  color: black;
+  font-size: 12px;
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
 }
 
 /*# sourceMappingURL=theme.css.map */
