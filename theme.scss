@@ -4,12 +4,27 @@
 
 // @import 'node_modules/highlight.js/styles/arta';
 
+$header-height: 20px;
+$header-text-size: 12px;
+$header-padding: 12px;
+
+$footer-height: 20px;
+$footer-text-size: 12px;
+$footer-padding: 12px;
+
 $slide-background-color: white; // #002855;
 $slide-text-size: 1.4em;
 $slide-text-color: black; // #009FDF;
+$slide-font-family: Verdana, Geneva, Tahoma, sans-serif;
+$slide-padding: $header-height $footer-height 30px 30px;
 
 $code-background-color: white; // #002855;
 $code-text-color: black; // #009FDF;
+$code-border-color: black;
+$code-border-size: 1px;
+$code-border-style: solid;
+$code-padding: 5px;
+
 
 $image-border-color: black;
 $image-border-style: solid;
@@ -27,6 +42,29 @@ $heading3-text-size: 1.6em;
 $heading4-text-size: 1.4em;
 $heading5-text-size: 1.2em;
 $heading6-text-size: 1.0em;
+
+$heading-margin-bottom: 21px;
+
+$blockquote-text-color: rgba($slide-text-color, 0.75);
+$blockquote-border-color: black;
+$blockquote-border-style: solid;
+$blockquote-border-size: 13px;
+$blockquote-padding: 13px;
+
+$table-header-background-color: darkgrey;
+$table-row-background-color: white;
+$table-second-row-background-color: lightgrey;
+$table-border-color: black;
+$table-border-style: solid;
+$table-border-size: 1px;
+$table-text-color: black;
+$table-cell-padding: 12px;
+
+$pagination-text-size: 12px;
+$pagination-text-color: black;
+$pagination-height: 20px;
+$pagination-padding: 12px;
+$pagination-content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 
 
 h1 {
@@ -69,7 +107,7 @@ h4,
 h5,
 h6 {
   border-bottom: none;
-  margin-bottom: 20px;
+  margin-bottom: $heading-margin-bottom;
 }
 
 h1,
@@ -91,38 +129,37 @@ hr {
 header,
 footer {
   // border: 1px solid red;
-  
   position: absolute;
   left: 0;
   right: 0;
-
   margin: 0;
-  padding: 12px;
-
-  height: 20px;
-
-  font-size: 12px;
 }
 
 header {
   top: 0;
+  padding: $header-padding;
+  height: $header-height;
+  font-size: $header-text-size;
 }
 
 footer {
   bottom: 0;
+  padding: $footer-padding;
+  height: $footer-height;
+  font-size: $footer-text-size;
 }
 
 section {
 
   // border: 1px solid red;
 
-  padding: 35px 35px 30px 30px;
+  padding: $slide-padding;
 
   justify-content: center;
   flex-direction: column;
   flex-wrap: nowrap;
 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: $slide-font-family;
   font-size: $slide-text-size;
 
   color: $slide-text-color;
@@ -154,9 +191,9 @@ section {
   }
 
   blockquote {
-    border-left: 13px solid $slide-text-color;
-    padding-left: 13px;
-    color: #939699;
+    border-left: $blockquote-border-size $blockquote-border-style $blockquote-border-color;
+    padding-left: $blockquote-padding;
+    color: $blockquote-text-color;
   }
 
   
@@ -166,39 +203,40 @@ section {
     border-collapse: collapse;
 
     tr {
-      background-color: white;
+      background-color: $table-row-background-color;
       border-color: $slide-text-color;
       &:nth-child(2n) {
-        background-color: rgba(grey,0.5);
+        background-color: $table-second-row-background-color;
       }
     }
 
     th {
-      background-color: grey;
+      background-color: $table-header-background-color;
     }
 
     th,
     td {
-      border: 1px solid $slide-text-color;
-      padding: 12px;
+      border: $table-border-size $table-border-style $table-border-color;
+      padding: $table-cell-padding;
     }
   }
 
   pre {
-    border: 1px solid $slide-text-color;
+    border: $code-border-size $code-border-style $code-border-color;
     // box-shadow: 5px 5px $text-color;
     color: $code-text-color;
     background-color: $code-background-color;
+    padding: $code-padding;
   }
   
 }
 
 section::after {
-  position: absolute;
-  padding: 12px;
-  height: 20px;
   // border: 1px solid red;
-  color: $slide-text-color;
-  font-size: 12px;
-  content:  attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+  position: absolute;
+  padding: $pagination-padding;
+  height: $pagination-height;
+  color: $pagination-text-color;
+  font-size: $pagination-text-size;
+  content: $pagination-content;
 }

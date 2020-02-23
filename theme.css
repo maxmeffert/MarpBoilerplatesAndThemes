@@ -39,7 +39,7 @@ h4,
 h5,
 h6 {
   border-bottom: none;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 h1 strong,
@@ -58,25 +58,28 @@ hr {
 
 header,
 footer {
-  margin: 0;
   position: absolute;
   left: 0;
   right: 0;
-  font-size: 12px;
-  height: 20px;
-  padding: 12px;
+  margin: 0;
 }
 
 header {
   top: 0;
+  padding: 12px;
+  height: 20px;
+  font-size: 12px;
 }
 
 footer {
   bottom: 0;
+  padding: 12px;
+  height: 20px;
+  font-size: 12px;
 }
 
 section {
-  padding: 35px 35px 30px 30px;
+  padding: 20px 20px 30px 30px;
   justify-content: center;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -108,7 +111,7 @@ section a {
 section blockquote {
   border-left: 13px solid black;
   padding-left: 13px;
-  color: #939699;
+  color: rgba(0, 0, 0, 0.75);
 }
 section table {
   margin-left: auto;
@@ -120,10 +123,10 @@ section table tr {
   border-color: black;
 }
 section table tr:nth-child(2n) {
-  background-color: rgba(128, 128, 128, 0.5);
+  background-color: lightgrey;
 }
 section table th {
-  background-color: grey;
+  background-color: darkgrey;
 }
 section table th,
 section table td {
@@ -134,6 +137,7 @@ section pre {
   border: 1px solid black;
   color: black;
   background-color: white;
+  padding: 5px;
 }
 
 section::after {
