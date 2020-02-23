@@ -4,9 +4,9 @@
 
 @import 'node_modules/highlight.js/styles/arta';
 
-$background-color: white; // #002855;
-$text-color: black; // #009FDF;
-$text-size: 1.4em;
+$slide-background-color: white; // #002855;
+$slide-text-size: 1.4em;
+$slide-text-color: black; // #009FDF;
 
 $code-background-color: white; // #002855;
 $code-text-color: black; // #009FDF;
@@ -19,9 +19,9 @@ $hyperlink-color: blue;
 $hyperlink-decoration: underline;
 
 $title-text-size: 2.5em;
-$title-text-color: $text-color;
+$title-text-color: $slide-text-color;
 $subtitle-text-size: 1.3em;
-$subtitle-text-color: rgba($text-color, 0.5);
+$subtitle-text-color: rgba($slide-text-color, 0.5);
 
 $heading3-text-size: 1.6em;
 $heading4-text-size: 1.4em;
@@ -119,10 +119,10 @@ section {
   flex-wrap: nowrap;
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: $text-size;
+  font-size: $slide-text-size;
 
-  color: $text-color;
-  background-color: $background-color;
+  color: $slide-text-color;
+  background-color: $slide-background-color;
 
   ul,
   ol {
@@ -150,7 +150,7 @@ section {
   }
 
   blockquote {
-    border-left: 13px solid $text-color;
+    border-left: 13px solid $slide-text-color;
     padding-left: 13px;
     color: #939699;
   }
@@ -163,7 +163,7 @@ section {
 
     tr {
       background-color: white;
-      border-color: $text-color;
+      border-color: $slide-text-color;
       &:nth-child(2n) {
         background-color: rgba(grey,0.5);
       }
@@ -175,13 +175,13 @@ section {
 
     th,
     td {
-      border: 1px solid $text-color;
+      border: 1px solid $slide-text-color;
       padding: 12px;
     }
   }
 
   pre {
-    border: 1px solid $text-color;
+    border: 1px solid $slide-text-color;
     // box-shadow: 5px 5px $text-color;
     color: $code-text-color;
     background-color: $code-background-color;
@@ -194,7 +194,7 @@ section::after {
   padding: 12px;
   height: 20px;
   // border: 1px solid red;
-  color: $text-color;
+  color: $slide-text-color;
   font-size: 12px;
   content:  attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
