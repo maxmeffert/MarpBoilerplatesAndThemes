@@ -12,29 +12,37 @@ $code-background-color: white; // #002855;
 $code-text-color: black; // #009FDF;
 
 h1 {
-  border-bottom: none;
-  font-size: 1.6em;
+  font-size: 2.5em;
+}
+
+h1:first-of-type {
+  margin-top: 17%;
 }
 
 h2 {
-  border-bottom: none;
   font-size: 1.3em;
+  color: rgba($text-color, 0.5)
+}
+
+h1,
+h2 {
+  text-align: center;
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 1.6em;
 }
 
 h4 {
-  font-size: 1.05em;
+  font-size: 1.4em;
 }
 
 h5 {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 h6 {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 h1,

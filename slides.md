@@ -5,8 +5,8 @@ header: 'Header'
 footer: 'Footer'
 ---
 
-# title
-## subtitle
+# Some Crazy Tile of Your Presentation
+## Some longer or shorter subtitle of your presentation
 
 ---
 
@@ -21,7 +21,7 @@ normal text
 
 ---
 
-# Some Itemization
+### Some Itemization
 
 * item 1
   * item 2
@@ -31,7 +31,7 @@ normal text
 
 ---
 
-# Some Enumeration
+### Some Enumeration
 
 1. item 1
    1. item 2
@@ -41,7 +41,7 @@ normal text
 
 ---
 
-# Some Blockquotes
+### Some Blockquotes
 
 > blockquote 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat purus cursus arcu rutrum, quis pharetra dolor luctus. Ut tincidunt tincidunt nisi. Nulla rhoncus urna nec tempus auctor. Duis ac lectus condimentum, iaculis nulla et, euismod augue. Nullam sed turpis fermentum, finibus quam at, aliquet erat. Nam hendrerit leo eu urna dapibus cursus. Maecenas ac maximus leo. Donec pulvinar dolor vel ligula volutpat pretium. Cras euismod nec nunc ut consectetur. Mauris tincidunt tristique tellus, non viverra ipsum hendrerit a.
 
@@ -49,7 +49,7 @@ normal text
 
 ---
 
-# Some Table
+### Some Table
 
 | Col 1 | Col 2 | Col 3 | Col 4 |
 |:-----:|:-----:|:-----:|:-----:|
@@ -59,12 +59,12 @@ normal text
 | Col 1 | Col 2 | Col 3 | Col 4 |
 
 ---
-# Some Inline Code
+### Some Inline Code
 `Inline code` with backticks 
 
 ---
 
-# Some Code
+### Some Code Block
 
 ```c#
 using System;
