@@ -41,6 +41,12 @@ normal text
 
 ---
 
+### Some Link
+
+[Link](https://google.com) 
+
+---
+
 ### Some Image
 
 ![width:500px height:500px](./image.png) 
