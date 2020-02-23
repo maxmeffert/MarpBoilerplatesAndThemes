@@ -1,5 +1,44 @@
 
-h1 {
+
+
+header,
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+header {
+  top: 0;
+  padding: $header-padding;
+  height: $header-height;
+  font-size: $header-text-size;
+  color: $header-text-color;
+}
+
+footer {
+  bottom: 0;
+  padding: $footer-padding;
+  height: $footer-height;
+  font-size: $footer-text-size;
+  color: $footer-text-color;
+}
+
+section {
+  padding: $slide-padding;
+
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  font-family: $slide-font-family;
+  font-size: $slide-text-size;
+
+  color: $slide-text-color;
+  background-color: $slide-background-color;
+
+  h1 {
     font-size: $title-text-size;
     color: $title-text-color;
   }
@@ -57,118 +96,81 @@ h1 {
     height: 0;
     padding-top: 0.25em;
   }
-  
-  header,
-  footer {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0;
-  }
-  
-  header {
-    top: 0;
-    padding: $header-padding;
-    height: $header-height;
-    font-size: $header-text-size;
-    color: $header-text-color;
-  }
-  
-  footer {
-    bottom: 0;
-    padding: $footer-padding;
-    height: $footer-height;
-    font-size: $footer-text-size;
-    color: $footer-text-color;
-  }
-  
-  section {
-    padding: $slide-padding;
-  
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  
-    font-family: $slide-font-family;
-    font-size: $slide-text-size;
-  
-    color: $slide-text-color;
-    background-color: $slide-background-color;
-  
-    ul,
-    ol {
-      margin: $list-margin;
-      text-align: left;
+
+  ul,
+  ol {
+    margin: $list-margin;
+    text-align: left;
+    li {
+      font-size: $list-item-text-size;
       li {
-        font-size: $list-item-text-size;
-        li {
-          font-size: $list-item-text-size-auto-decrease;
-        }
-      }    
-    }
-  
-    ul {
-      list-style-type: square;
-    }
-  
-    img {
-      border: $image-border-width $image-border-style $image-border-color;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: transparent;
-    }
-  
-    a {
-      color: $hyperlink-color;
-      text-decoration: $hyperlink-decoration;
-    }
-  
-    blockquote {
-      border-left: $blockquote-border-size $blockquote-border-style $blockquote-border-color;
-      padding-left: $blockquote-padding;
-      color: $blockquote-text-color;
-    }
-  
-    
-    table {
-      margin-left: auto;
-      margin-right: auto;
-      border-collapse: collapse;
-  
-      tr {
-        background-color: $table-row-background-color;
-        border-color: $slide-text-color;
-        &:nth-child(2n) {
-          background-color: $table-second-row-background-color;
-        }
+        font-size: $list-item-text-size-auto-decrease;
       }
+    }    
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  img {
+    border: $image-border-width $image-border-style $image-border-color;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+  }
+
+  a {
+    color: $hyperlink-color;
+    text-decoration: $hyperlink-decoration;
+  }
+
+  blockquote {
+    border-left: $blockquote-border-size $blockquote-border-style $blockquote-border-color;
+    padding-left: $blockquote-padding;
+    color: $blockquote-text-color;
+  }
+
   
-      th {
-        background-color: $table-header-background-color;
-      }
-  
-      th,
-      td {
-        border: $table-border-size $table-border-style $table-border-color;
-        padding: $table-cell-padding;
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+    tr {
+      background-color: $table-row-background-color;
+      border-color: $slide-text-color;
+      &:nth-child(2n) {
+        background-color: $table-second-row-background-color;
       }
     }
-  
-    pre {
-      border: $code-border-size $code-border-style $code-border-color;
-      color: $code-text-color;
-      background-color: $code-background-color;
-      padding: $code-padding;
+
+    th {
+      background-color: $table-header-background-color;
     }
-    
+
+    th,
+    td {
+      border: $table-border-size $table-border-style $table-border-color;
+      padding: $table-cell-padding;
+    }
+  }
+
+  pre {
+    border: $code-border-size $code-border-style $code-border-color;
+    color: $code-text-color;
+    background-color: $code-background-color;
+    padding: $code-padding;
   }
   
-  section::after {
-    position: absolute;
-    padding: $pagination-padding;
-    height: $pagination-height;
-    color: $pagination-text-color;
-    font-size: $pagination-text-size;
-    content: $pagination-content;
-  }
+}
+
+section::after {
+  position: absolute;
+  padding: $pagination-padding;
+  height: $pagination-height;
+  color: $pagination-text-color;
+  font-size: $pagination-text-size;
+  content: $pagination-content;
+}
