@@ -1,2 +1,2 @@
-# DotNetCLRGarbageCollection
-Repository for slideware of .NET/CLR Garbage Collection
+# MarpBoilerplatesAndThemes
+Repository for Mapr Boilderplates and Themes

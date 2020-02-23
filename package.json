@@ -1,7 +1,7 @@
 {
-  "name": "fundamentalsofdotnetclrgarbagecollection",
+  "name": "marpboilerplatesandthemes",
   "version": "1.0.0",
-  "description": "Repository for slideware of .NET/CLR Garbage Collection",
+  "description": "Repository for Mapr Boilderplates and Themes",
   "main": "index.js",
   "scripts": {
     "build-theme": "npx sass theme.scss theme.css",
