@@ -91,13 +91,17 @@ hr {
 header,
 footer {
   // border: 1px solid red;
-  margin: 0;
+  
   position: absolute;
   left: 0;
   right: 0;
-  font-size: 12px;
-  height: 20px;
+
+  margin: 0;
   padding: 12px;
+
+  height: 20px;
+
+  font-size: 12px;
 }
 
 header {
