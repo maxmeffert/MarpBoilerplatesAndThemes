@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxmeffert/FundamentalsOfDotNetCLRGarbageCollection.git"
+    "url": "git+https://github.com/maxmeffert/MarpBoilerplatesAndThemes.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maxmeffert/FundamentalsOfDotNetCLRGarbageCollection/issues"
+    "url": "https://github.com/maxmeffert/MarpBoilerplatesAndThemes/issues"
   },
-  "homepage": "https://github.com/maxmeffert/FundamentalsOfDotNetCLRGarbageCollection#readme",
+  "homepage": "https://github.com/maxmeffert/MarpBoilerplatesAndThemes#readme",
   "devDependencies": {
     "@marp-team/marp-cli": "^0.17.1",
     "highlight.js": "^9.18.1",
