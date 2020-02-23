@@ -74,6 +74,7 @@ Author: pumbur <pumbur@pumbur.net>
 
 h1 {
   font-size: 2.5em;
+  color: black;
 }
 
 h1:first-of-type {
@@ -104,6 +105,14 @@ h5 {
 
 h6 {
   font-size: 1em;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  border-bottom: none;
+  margin-bottom: 20px;
 }
 
 h1 strong,

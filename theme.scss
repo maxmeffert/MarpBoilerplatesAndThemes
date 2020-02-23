@@ -18,8 +18,20 @@ $image-border-width: 1px;
 $hyperlink-color: blue;
 $hyperlink-decoration: underline;
 
+$title-text-size: 2.5em;
+$title-text-color: $text-color;
+$subtitle-text-size: 1.3em;
+$subtitle-text-color: rgba($text-color, 0.5);
+
+$heading3-text-size: 1.6em;
+$heading4-text-size: 1.4em;
+$heading5-text-size: 1.2em;
+$heading6-text-size: 1.0em;
+
+
 h1 {
-  font-size: 2.5em;
+  font-size: $title-text-size;
+  color: $title-text-color;
 }
 
 h1:first-of-type {
@@ -27,8 +39,8 @@ h1:first-of-type {
 }
 
 h2 {
-  font-size: 1.3em;
-  color: rgba($text-color, 0.5)
+  font-size: $subtitle-text-size;
+  color: $subtitle-text-color;
 }
 
 h1,
@@ -37,19 +49,27 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6em;
+  font-size: $heading3-text-size;
 }
 
 h4 {
-  font-size: 1.4em;
+  font-size: $heading4-text-size;
 }
 
 h5 {
-  font-size: 1.2em;
+  font-size: $heading5-text-size;
 }
 
 h6 {
-  font-size: 1em;
+  font-size: $heading6-text-size;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  border-bottom: none;
+  margin-bottom: 20px;
 }
 
 h1,
