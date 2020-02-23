@@ -1,12 +1,10 @@
-/* @theme theme */
-
-// @import-theme 'default';
+/* @theme minimal */
 
 // @import 'node_modules/highlight.js/styles/arta';
 
-$slide-background-color: white; // #002855;
+$slide-background-color: white;
 $slide-text-size: 1.5em;
-$slide-text-color: black; // #009FDF;
+$slide-text-color: black;
 $slide-font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 $header-height: 20px;
@@ -17,8 +15,8 @@ $footer-height: 20px;
 $footer-text-size: 12px;
 $footer-padding: 12px;
 
-$code-background-color: white; // #002855;
-$code-text-color: black; // #009FDF;
+$code-background-color: white;
+$code-text-color: black;
 $code-border-color: black;
 $code-border-size: 1px;
 $code-border-style: solid;
@@ -138,7 +136,6 @@ hr {
 
 header,
 footer {
-  // border: 1px solid red;
   position: absolute;
   left: 0;
   right: 0;
@@ -162,9 +159,6 @@ footer {
 }
 
 section {
-
-  // border: 1px solid red;
-
   padding: $slide-padding;
 
   justify-content: center;
@@ -179,7 +173,6 @@ section {
 
   ul,
   ol {
-    // border: 1px solid red;
     margin: $list-margin;
     text-align: left;
     li {
@@ -240,7 +233,6 @@ section {
 
   pre {
     border: $code-border-size $code-border-style $code-border-color;
-    // box-shadow: 5px 5px $text-color;
     color: $code-text-color;
     background-color: $code-background-color;
     padding: $code-padding;
@@ -249,7 +241,6 @@ section {
 }
 
 section::after {
-  // border: 1px solid red;
   position: absolute;
   padding: $pagination-padding;
   height: $pagination-height;
