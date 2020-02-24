@@ -4,6 +4,9 @@
   "description": "Repository for Mapr Boilderplates and Themes",
   "main": "",
   "scripts": {
+    "build:diabolo-css": "npx sass ./src/diabolo/diabolo.scss ./themes/diabolo.css",
+    "build:diabolo-pdf": "npx marp -c ./marp/diabolo.pdf.yml",
+    "build:diabolo-images": "npx marp -c ./marp/diabolo.img.yml",
     "build:minimal-css": "npx sass ./src/minimal/minimal.scss ./themes/minimal.css",
     "build:minimal-pdf": "npx marp -c ./marp/minimal.pdf.yml",
     "build:minimal-html": "npx marp -c ./marp/minimal.html.yml",

@@ -3,7 +3,7 @@ options:
   looseYAML: false
   markdown:
     breaks: false
-pdf: true
+images: png
 inputDir: ../test
-output: ../test/minimal
-theme: ../themes/minimal.css
+output: ../previews/diabolo/
+theme: ../themes/diabolo.css
