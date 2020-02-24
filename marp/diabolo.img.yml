@@ -5,5 +5,5 @@ options:
     breaks: false
 images: png
 inputDir: ../test
-output: ../previews/diabolo/
+output: ../previews/diabolo/png
 theme: ../themes/diabolo.css

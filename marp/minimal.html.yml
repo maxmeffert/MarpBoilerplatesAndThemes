@@ -5,5 +5,5 @@ options:
     breaks: false
 html: true
 inputDir: ../test
-output: ../test/minimal
+output: ../previews/minimal/html
 theme: ../themes/minimal.css

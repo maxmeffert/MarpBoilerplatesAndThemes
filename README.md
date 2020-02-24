@@ -21,13 +21,13 @@ npx marp --theme minimal.css presentation.md
 
 |**Title**|**Headings**|**Itemization**|
 |:-:|:-:|:-:|
-|<img src="./previews/minimal/slides.001.png" width="200"/>|<img src="./previews/minimal/slides.002.png" width="200"/>|<img src="./previews/minimal/slides.003.png" width="200"/>|
+|<img src="./previews/minimal/png/slides.001.png" width="200"/>|<img src="./previews/minimal/png/slides.002.png" width="200"/>|<img src="./previews/minimal/png/slides.003.png" width="200"/>|
 |**Enumeration**|**Hyperlink**|**Image**|
-|<img src="./previews/minimal/slides.004.png" width="200"/>|<img src="./previews/minimal/slides.005.png" width="200"/>|<img src="./previews/minimal/slides.006.png" width="200"/>|
+|<img src="./previews/minimal/png/slides.004.png" width="200"/>|<img src="./previews/minimal/png/slides.005.png" width="200"/>|<img src="./previews/minimal/png/slides.006.png" width="200"/>|
 |**Blockquote**|**Table**|**Inline Code**|
-|<img src="./previews/minimal/slides.007.png" width="200"/>|<img src="./previews/minimal/slides.008.png" width="200"/>|<img src="./previews/minimal/slides.009.png" width="200"/>|
+|<img src="./previews/minimal/png/slides.007.png" width="200"/>|<img src="./previews/minimal/png/slides.008.png" width="200"/>|<img src="./previews/minimal/png/slides.009.png" width="200"/>|
 |**Code Block**|||
-|<img src="./previews/minimal/slides.010.png" width="200"/>||
+|<img src="./previews/minimal/png/slides.010.png" width="200"/>||
 
 
 ## Diabolo
@@ -49,10 +49,10 @@ npx marp --theme diabolo.css presentation.md
 
 |**Title**|**Headings**|**Itemization**|
 |:-:|:-:|:-:|
-|<img src="./previews/diabolo/slides.001.png" width="200"/>|<img src="./previews/diabolo/slides.002.png" width="200"/>|<img src="./previews/diabolo/slides.003.png" width="200"/>|
+|<img src="./previews/diabolo/png/slides.001.png" width="200"/>|<img src="./previews/diabolo/png/slides.002.png" width="200"/>|<img src="./previews/diabolo/png/slides.003.png" width="200"/>|
 |**Enumeration**|**Hyperlink**|**Image**|
-|<img src="./previews/diabolo/slides.004.png" width="200"/>|<img src="./previews/diabolo/slides.005.png" width="200"/>|<img src="./previews/diabolo/slides.006.png" width="200"/>|
+|<img src="./previews/diabolo/png/slides.004.png" width="200"/>|<img src="./previews/diabolo/png/slides.005.png" width="200"/>|<img src="./previews/diabolo/png/slides.006.png" width="200"/>|
 |**Blockquote**|**Table**|**Inline Code**|
-|<img src="./previews/diabolo/slides.007.png" width="200"/>|<img src="./previews/diabolo/slides.008.png" width="200"/>|<img src="./previews/diabolo/slides.009.png" width="200"/>|
+|<img src="./previews/diabolo/png/slides.007.png" width="200"/>|<img src="./previews/diabolo/png/slides.008.png" width="200"/>|<img src="./previews/diabolo/png/slides.009.png" width="200"/>|
 |**Code Block**|||
-|<img src="./previews/diabolo/slides.010.png" width="200"/>||
+|<img src="./previews/diabolo/png/slides.010.png" width="200"/>||
