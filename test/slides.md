@@ -49,7 +49,7 @@ normal text
 
 ### Some Image
 
-![width:500px height:500px](./image.png) 
+![width:500px](./image.png) 
 
 ---
 
