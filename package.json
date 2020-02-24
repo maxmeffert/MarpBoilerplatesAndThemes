@@ -4,7 +4,7 @@
   "description": "Repository for Mapr Boilderplates and Themes",
   "main": "",
   "scripts": {
-    "build:theme-minimal": "npx sass ./src/minimal.scss ./themes/minimal.css",
+    "build:theme-minimal": "npx sass ./src/minimal/minimal.scss ./themes/minimal.css",
     "build:slides-pdf": "npx marp -c ./marp/minimal.pdf.yml",
     "build:slides-html": "npx marp -c ./marp/minimal.html.yml",
     "build:slides-images": "npx marp -c ./marp/minimal.img.yml",

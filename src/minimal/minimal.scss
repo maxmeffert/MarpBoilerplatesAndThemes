@@ -72,14 +72,14 @@ $pagination-text-color: rgba($slide-text-color, 0.75);
 $list-item-text-size: $slide-text-size;
 
 
-@import 'headerfooter.scss';
-@import 'slide.scss';
-@import 'heading.scss';
-@import 'horizontalrule.scss';
-@import 'listing.scss';
-@import 'image.scss';
-@import 'hyperlink.scss';
-@import 'blockquote.scss';
-@import 'table.scss';
-@import 'code.scss';
-@import 'pagination.scss';
+@import '../base/headerfooter.scss';
+@import '../base/slide.scss';
+@import '../base/heading.scss';
+@import '../base/horizontalrule.scss';
+@import '../base/listing.scss';
+@import '../base/image.scss';
+@import '../base/hyperlink.scss';
+@import '../base/blockquote.scss';
+@import '../base/table.scss';
+@import '../base/code.scss';
+@import '../base/pagination.scss';
