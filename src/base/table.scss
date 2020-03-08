@@ -6,12 +6,12 @@ section {
     border-collapse: collapse;
 
     tr {
-      background-color: $table-row-background-color;
+      background-color: $table-background-color;
     }
 
     th,
     td {     
-      padding: $table-cell-padding;
+      padding: 12px;
     }
 
     td {

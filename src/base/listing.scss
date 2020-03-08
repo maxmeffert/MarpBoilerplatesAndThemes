@@ -2,12 +2,12 @@
 section {
     ul,
     ol {
-      margin: $list-margin;
+      margin: 30px;
       text-align: left;
       li {
         font-size: $list-item-text-size;
         li {
-          font-size: $list-item-text-size-auto-decrease;
+          font-size: 90%; // auto decrease by x percent
         }
       }    
     }

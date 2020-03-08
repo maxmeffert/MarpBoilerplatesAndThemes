@@ -1,7 +1,7 @@
 // Image Styles
 section { 
   img {
-    border: $image-border-width $image-border-style $image-border-color;
+    border: 1px solid $image-border-color;
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -9,16 +9,16 @@ footer {
 
 header {
   top: 0;
-  padding: $header-padding;
-  height: $header-height;
+  padding: 12px;
+  height: 20px;
   font-size: $header-text-size;
   color: $header-text-color;
 }
 
 footer {
   bottom: 0;
-  padding: $footer-padding;
-  height: $footer-height;
+  padding: 12px;
+  height: 20px;
   font-size: $footer-text-size;
   color: $footer-text-color;
 }

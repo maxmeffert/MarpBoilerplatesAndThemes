@@ -1,8 +1,8 @@
 // Pagination Styles
 section::after {
   position: absolute;
-  padding: $pagination-padding;
-  height: $pagination-height;
+  padding: 12px;
+  height: 20px;
   color: $pagination-text-color;
   font-size: $pagination-text-size;
   content: $pagination-content;
