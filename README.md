@@ -1,6 +1,12 @@
 # MarpBoilerplatesAndThemes
 Repository for [Marp](https://marp.app) Boilderplates and Themes
 
+##  Build
+
+```
+npm run build-all
+```
+
 ---
 
 ## Minimal
@@ -13,8 +19,28 @@ A minimalistic black & white theme.
 
 ### Usage
 
+#### CLI
+
 ```
 npx marp --theme minimal.css presentation.md
+```
+
+#### Marp for VS Code
+
+```
+---
+marp: true
+theme: diabolo
+---
+```
+
+```json
+// Please put `.vscode/settings.json` on your workspace
+{
+  "markdown.marp.themes": [
+    "./path/to/minimal.css"
+  ]
+}
 ```
 
 ### Preview
@@ -41,8 +67,28 @@ I just added this to test some template derivation...
 
 ### Usage
 
+#### CLI
+
 ```
 npx marp --theme diabolo.css presentation.md
+```
+
+#### Marp for VS Code
+
+```
+---
+marp: true
+theme: diabolo
+---
+```
+
+```json
+// Please put `.vscode/settings.json` on your workspace
+{
+  "markdown.marp.themes": [
+    "./path/to/diabolo.css"
+  ]
+}
 ```
 
 ### Preview
