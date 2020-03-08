@@ -7,20 +7,15 @@ section {
 
     tr {
       background-color: $table-row-background-color;
-      border-color: $slide-text-color;
-      &:nth-child(2n) {
-        background-color: $table-second-row-background-color;
-      }
-    }
-
-    th {
-      background-color: $table-header-background-color;
     }
 
     th,
-    td {
-      border: $table-border-size $table-border-style $table-border-color;
+    td {     
       padding: $table-cell-padding;
+    }
+
+    td {
+      border-top: 1px solid $table-border-color;
     }
   }
 }

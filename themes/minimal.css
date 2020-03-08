@@ -125,18 +125,13 @@ section table {
 }
 section table tr {
   background-color: white;
-  border-color: black;
-}
-section table tr:nth-child(2n) {
-  background-color: lightgrey;
-}
-section table th {
-  background-color: darkgrey;
 }
 section table th,
 section table td {
-  border: 1px solid black;
   padding: 12px;
+}
+section table td {
+  border-top: 1px solid black;
 }
 
 section pre {
