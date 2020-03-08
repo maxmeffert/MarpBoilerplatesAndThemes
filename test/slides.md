@@ -1,5 +1,6 @@
 ---
 marp: true
+theme: minimal
 paginate: true
 header: 'Header'
 footer: 'Footer'

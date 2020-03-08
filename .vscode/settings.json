@@ -1,0 +1,6 @@
+{
+    "markdown.marp.themes": [
+        "./themes/minimal.css",
+        "./themes/diabolo.css"
+    ]
+}
