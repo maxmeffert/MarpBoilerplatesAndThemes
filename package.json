@@ -13,7 +13,7 @@
     "build:minimal-html": "npx marp -c ./marp/minimal.html.yml",
     "build:minimal-png": "npx marp -c ./marp/minimal.png.yml",
     "build-all": "npm-run-all build:*",
-    "build": "npm run build:minimal:css && npm run build:minimal:pdf"
+    "build-themes": "npm-run-all build:*-css"
   },
   "repository": {
     "type": "git",
