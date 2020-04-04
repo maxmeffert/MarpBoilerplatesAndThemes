@@ -84,11 +84,11 @@ section hr {
 
 section ul,
 section ol {
-  margin: 30px;
   text-align: left;
 }
 section ul li,
 section ol li {
+  margin: 30px;
   font-size: 1.5em;
 }
 section ul li li,
