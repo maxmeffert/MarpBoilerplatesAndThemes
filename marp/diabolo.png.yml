@@ -1,9 +1,0 @@
-allowLocalFiles: true
-options:
-  looseYAML: false
-  markdown:
-    breaks: false
-images: png
-inputDir: ../test
-output: ../previews/diabolo/png
-theme: ../themes/diabolo.css

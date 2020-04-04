@@ -1,9 +1,0 @@
-allowLocalFiles: true
-options:
-  looseYAML: false
-  markdown:
-    breaks: false
-pdf: true
-inputDir: ../test
-output: ../previews/diabolo/pdf
-theme: ../themes/diabolo.css
