@@ -54,5 +54,9 @@ theme: diabolo
 |<img src="./previews/minimal/png/slides.007.png" width="200"/>|<img src="./previews/minimal/png/slides.008.png" width="200"/>|<img src="./previews/minimal/png/slides.009.png" width="200"/>|
 |**Blockquote**|**Table**|**Inline Code**|
 |<img src="./previews/minimal/png/slides.010.png" width="200"/>|<img src="./previews/minimal/png/slides.011.png" width="200"/>|<img src="./previews/minimal/png/slides.012.png" width="200"/>|
-|**Code Block**|||
-|<img src="./previews/minimal/png/slides.013.png" width="200"/>|||
+|**Code Block**|**Some Math**|**More Math**|
+|<img src="./previews/minimal/png/slides.013.png" width="200"/>|<img src="./previews/minimal/png/slides.014.png" width="200"/>|<img src="./previews/minimal/png/slides.015.png" width="200"/>|
+|**Background Image**|**Split Background (Right)**|**Split Background (Left)**|
+|<img src="./previews/minimal/png/slides.016.png" width="200"/>|<img src="./previews/minimal/png/slides.017.png" width="200"/>|<img src="./previews/minimal/png/slides.018.png" width="200"/>|
+|**Split Background (Right Scaled)**|**Multiple Background**||
+|<img src="./previews/minimal/png/slides.019.png" width="200"/>|<img src="./previews/minimal/png/slides.020.png" width="200"/>||
