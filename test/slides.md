@@ -32,6 +32,18 @@ normal text
 
 ---
 
+### Some "Grouped" Itemization
+
+* item 1
+  * item 2
+  * item 3
+    * item 4
+    * item 5
+      * item 6
+      * item 7
+
+---
+
 ### Some Enumeration
 
 1. item 1
@@ -40,6 +52,17 @@ normal text
          1. item 4
             1. item 5
 
+---
+
+### Some "Grouped" Enumeration
+
+1. item 1
+   1. item 2
+   2. item 3
+      1. item 4
+      2. item 5
+         1. item 6
+         2. item 7
 
 ---
 
