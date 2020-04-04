@@ -44,8 +44,8 @@ $blockquote-text-color: rgba($slide-text-color, 0.75);
 $pagination-text-color: rgba($slide-text-color, 0.75);
 $list-item-text-size: $slide-text-size;
 
-
-// @import 'node_modules/highlight.js/styles/arta';
+// syntax highlighting
+@import '../../node_modules/highlight.js/styles/vs';
 
 @import '../base/headerfooter.scss';
 @import '../base/slide.scss';
