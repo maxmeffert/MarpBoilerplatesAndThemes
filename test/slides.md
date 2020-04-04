@@ -125,21 +125,56 @@ class HelloWorld
     }
 }
 ```
+
 ---
 
-### Some Math
+### Some Larger Code Block
+
+```c#
+using System;
+
+class HelloWorld 
+{
+    public void Main(string[] args) 
+    {
+        Console.WriteLine("Hello World")
+    }
+
+    public void Main(string[] args) 
+    {
+        Console.WriteLine("Hello World")
+    }
+
+    public void Main(string[] args) 
+    {
+        Console.WriteLine("Hello World")
+    }
+
+    public void Main(string[] args) 
+    {
+        Console.WriteLine("Hello World")
+    }
+}
+```
+
+---
+
+### Some Inline Math
 
 * Mass–energy equivalence: $E = mc^2$ 
 * Package Instability: $\frac{C_e}{C_e + C_a}$
 
 ---
 
-### More Math
+### Some Math Blocks
 
-* Limits: $\lim\limits_{x \leftarrow \infty} f(x)$
-* Integrals: $\int\limits_a^b f(x) ~dx = [F(x)]_a^b = F(n) - F(a)$
-* Sums: $\sum\limits_i^n 1$
-* Big-$O$-Notation: $O(1) \subset O(n) \subseteq O(n^2)$
+$$\lim\limits_{x \leftarrow \infty} f(x)$$
+
+$$\int\limits_a^b f(x) ~dx = [F(x)]_a^b = F(n) - F(a)$$
+
+$$\sum\limits_i^n 1$$
+
+$$O(1) \subset O(n) \subseteq O(n^2)$$
 
 ---
 

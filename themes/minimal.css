@@ -1,4 +1,7 @@
-/* @theme minimal */
+/* 
+ * @theme minimal
+ * @auto-scaling true
+ */
 /*
 
 Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
@@ -207,6 +210,16 @@ section pre {
   color: black;
   background-color: white;
   padding: 5px;
+}
+section pre code {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 100%;
+  padding: 0.5em;
+  font-size: 0.7em;
+}
+section pre code svg[data-marp-fitting=svg] {
+  max-height: calc(580px - 1em);
 }
 
 section::after {

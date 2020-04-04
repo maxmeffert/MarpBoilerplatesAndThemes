@@ -5,5 +5,17 @@ section {
     color: $code-text-color;
     background-color: $code-background-color;
     padding: 5px;
+
+    code {
+      box-sizing: border-box;
+      margin: 0;
+      min-width: 100%;
+      padding: 0.5em;
+      font-size: 0.7em;
+  
+      svg[data-marp-fitting='svg'] {
+        max-height: calc(580px - 1em);
+      }
+    }
   }  
 }
