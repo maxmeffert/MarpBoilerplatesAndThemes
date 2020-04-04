@@ -85,7 +85,7 @@ normal text
 
 ### Some Image
 
-![width:500px](./image.png) 
+![width:500px](https://upload.wikimedia.org/wikipedia/commons/9/90/Katsushika-hokusai-fuji-from-goten-yama.jpg) 
 
 ---
 
@@ -125,3 +125,62 @@ class HelloWorld
     }
 }
 ```
+---
+
+### Some Math
+
+* Mass–energy equivalence: $E = mc^2$ 
+* Package Instability: $\frac{C_e}{C_e + C_a}$
+
+---
+
+### More Math
+
+* Limits: $\lim\limits_{x \leftarrow \infty} f(x)$
+* Integrals: $\int\limits_a^b f(x) ~dx = [F(x)]_a^b = F(n) - F(a)$
+* Sums: $\sum\limits_i^n 1$
+* Big-$O$-Notation: $O(1) \subset O(n) \subseteq O(n^2)$
+
+---
+
+### Background Image
+
+![bg](https://upload.wikimedia.org/wikipedia/commons/9/90/Katsushika-hokusai-fuji-from-goten-yama.jpg) 
+
+* item 1
+  * item 2
+
+---
+
+### Split Background (Right)
+
+![bg right:50%](https://upload.wikimedia.org/wikipedia/commons/9/90/Katsushika-hokusai-fuji-from-goten-yama.jpg) 
+
+* item 1
+  * item 2
+
+---
+
+### Split Background (Left)
+
+![bg left:50%](https://upload.wikimedia.org/wikipedia/commons/9/90/Katsushika-hokusai-fuji-from-goten-yama.jpg) 
+
+* item 1
+  * item 2
+
+---
+
+### Split Background (Right Scaled)
+
+![bg right:50% 90%](https://upload.wikimedia.org/wikipedia/commons/9/90/Katsushika-hokusai-fuji-from-goten-yama.jpg) 
+
+* item 1
+  * item 2
+
+---
+
+### Multiple Backgrounds
+
+![bg](https://upload.wikimedia.org/wikipedia/commons/5/58/Hokusai_au_mus%C3%A9e_Guimet_%288207452088%29.jpg)
+![bg](https://upload.wikimedia.org/wikipedia/commons/9/95/Hokusai_%281828%29_Cuckoo_and_Azaleas.jpg)
+![bg](https://upload.wikimedia.org/wikipedia/commons/b/b9/Katsushika_Hokusai_-_Yoshitsune_Falls%2C_from_the_series_Famous_Waterfalls_in_Various_Provinces_-_Google_Art_Project.jpg)
