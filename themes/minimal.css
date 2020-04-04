@@ -115,6 +115,7 @@ section a {
 section blockquote {
   border-left: 13px solid black;
   padding-left: 13px;
+  margin: 5px;
   color: rgba(0, 0, 0, 0.75);
 }
 
