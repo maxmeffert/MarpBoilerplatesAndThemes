@@ -85,7 +85,7 @@ normal text
 
 ### Some Image
 
-![width:500px](https://upload.wikimedia.org/wikipedia/commons/9/90/Katsushika-hokusai-fuji-from-goten-yama.jpg) 
+![width:500px](./640px-Katsushika-hokusai-fuji-from-goten-yama.jpg) 
 
 ---
 
@@ -180,7 +180,7 @@ $$O(1) \subset O(n) \subseteq O(n^2)$$
 
 ### Background Image
 
-![bg](https://upload.wikimedia.org/wikipedia/commons/9/90/Katsushika-hokusai-fuji-from-goten-yama.jpg) 
+![bg](./640px-Katsushika-hokusai-fuji-from-goten-yama.jpg) 
 
 * item 1
   * item 2
@@ -189,7 +189,7 @@ $$O(1) \subset O(n) \subseteq O(n^2)$$
 
 ### Split Background (Right)
 
-![bg right:50%](https://upload.wikimedia.org/wikipedia/commons/9/90/Katsushika-hokusai-fuji-from-goten-yama.jpg) 
+![bg right:50%](./640px-Katsushika-hokusai-fuji-from-goten-yama.jpg) 
 
 * item 1
   * item 2
@@ -198,7 +198,7 @@ $$O(1) \subset O(n) \subseteq O(n^2)$$
 
 ### Split Background (Left)
 
-![bg left:50%](https://upload.wikimedia.org/wikipedia/commons/9/90/Katsushika-hokusai-fuji-from-goten-yama.jpg) 
+![bg left:50%](./640px-Katsushika-hokusai-fuji-from-goten-yama.jpg) 
 
 * item 1
   * item 2
@@ -207,7 +207,7 @@ $$O(1) \subset O(n) \subseteq O(n^2)$$
 
 ### Split Background (Right Scaled)
 
-![bg right:50% 90%](https://upload.wikimedia.org/wikipedia/commons/9/90/Katsushika-hokusai-fuji-from-goten-yama.jpg) 
+![bg right:50% 90%](./640px-Katsushika-hokusai-fuji-from-goten-yama.jpg) 
 
 * item 1
   * item 2
@@ -216,6 +216,6 @@ $$O(1) \subset O(n) \subseteq O(n^2)$$
 
 ### Multiple Backgrounds
 
-![bg](https://upload.wikimedia.org/wikipedia/commons/5/58/Hokusai_au_mus%C3%A9e_Guimet_%288207452088%29.jpg)
-![bg](https://upload.wikimedia.org/wikipedia/commons/9/95/Hokusai_%281828%29_Cuckoo_and_Azaleas.jpg)
-![bg](https://upload.wikimedia.org/wikipedia/commons/b/b9/Katsushika_Hokusai_-_Yoshitsune_Falls%2C_from_the_series_Famous_Waterfalls_in_Various_Provinces_-_Google_Art_Project.jpg)
+![bg](./327px-Hokusai_au_mus%C3%A9e_Guimet_%288207452088%29.jpg)
+![bg](./355px-Hokusai_%281828%29_Cuckoo_and_Azaleas.jpg)
+![bg](./340px-Katsushika_Hokusai_-_Yoshitsune_Falls%2C_from_the_series_Famous_Waterfalls_in_Various_Provinces_-_Google_Art_Project.jpg)
