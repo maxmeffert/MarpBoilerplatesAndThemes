@@ -48,12 +48,14 @@ theme: diabolo
 |**Title**|**Headings**|**Itemization**|
 |:-:|:-:|:-:|
 |<img src="./previews/minimal/png/slides.001.png" width="200"/>|<img src="./previews/minimal/png/slides.002.png" width="200"/>|<img src="./previews/minimal/png/slides.003.png" width="200"/>|
-|**Enumeration**|**Hyperlink**|**Image**|
+|**Grouped Itemization**|**Enumeration**|**Grouped Enumeration**|
 |<img src="./previews/minimal/png/slides.004.png" width="200"/>|<img src="./previews/minimal/png/slides.005.png" width="200"/>|<img src="./previews/minimal/png/slides.006.png" width="200"/>|
-|**Blockquote**|**Table**|**Inline Code**|
+|**Mixed List**|**Hyperlink**|**Image**|
 |<img src="./previews/minimal/png/slides.007.png" width="200"/>|<img src="./previews/minimal/png/slides.008.png" width="200"/>|<img src="./previews/minimal/png/slides.009.png" width="200"/>|
+|**Blockquote**|**Table**|**Inline Code**|
+|<img src="./previews/minimal/png/slides.010.png" width="200"/>|<img src="./previews/minimal/png/slides.011.png" width="200"/>|<img src="./previews/minimal/png/slides.012.png" width="200"/>|
 |**Code Block**|||
-|<img src="./previews/minimal/png/slides.010.png" width="200"/>||
+|<img src="./previews/minimal/png/slides.013.png" width="200"/>|||
 
 
 ## Diabolo
