@@ -107,8 +107,9 @@ normal text
 | Col 1 | Col 2 | Col 3 | Col 4 |
 
 ---
+
 ### Some Inline Code
-`Inline code` with backticks 
+Normal text `Inline code` Normal text
 
 ---
 
