@@ -4,6 +4,6 @@ options:
   markdown:
     breaks: false
 pdf: true
-inputDir: ../test
+inputDir: ../slides
 output: ../previews/minimal/pdf
 theme: ../themes/minimal.css

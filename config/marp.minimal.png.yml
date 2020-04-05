@@ -4,6 +4,6 @@ options:
   markdown:
     breaks: false
 images: png
-inputDir: ../test
+inputDir: ../slides
 output: ../previews/minimal/png
 theme: ../themes/minimal.css

@@ -4,6 +4,6 @@ options:
   markdown:
     breaks: false
 html: true
-inputDir: ../test
+inputDir: ../slides
 output: ../previews/minimal/html
 theme: ../themes/minimal.css
