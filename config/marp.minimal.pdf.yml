@@ -5,5 +5,5 @@ options:
     breaks: false
 pdf: true
 inputDir: ../slides
-output: ../previews/minimal/pdf
+output: ../themes/previews/minimal/pdf
 theme: ../themes/minimal.css
