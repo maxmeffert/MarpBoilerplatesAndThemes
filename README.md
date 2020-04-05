@@ -7,7 +7,9 @@ Repository for [Marp](https://marp.app) Boilderplates and Themes
 yarn build
 ```
 
----
+## Boilerplate
+
+[slides.md](./slides/slides.md)
 
 ## Minimal Theme
 
