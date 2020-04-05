@@ -45,6 +45,9 @@ theme: diabolo
 
 ### Preview
 
+* [PDF](./previews/minimal/slides.pdf)
+* [HTML](./previews/minimal/slides.html)
+
 |**Title**|**Headings**|**Itemization**|
 |:-:|:-:|:-:|
 |<img src="./previews/minimal/png/slides.001.png" width="200"/>|<img src="./previews/minimal/png/slides.002.png" width="200"/>|<img src="./previews/minimal/png/slides.003.png" width="200"/>|
