@@ -5,9 +5,9 @@
   "main": "",
   "scripts": {
     "build:minimal-css": "npx sass ./src/minimal/minimal.scss ./themes/minimal.css",
-    "build:minimal-pdf": "npx marp -c ./marp/minimal.pdf.yml",
-    "build:minimal-html": "npx marp -c ./marp/minimal.html.yml",
-    "build:minimal-png": "npx marp -c ./marp/minimal.png.yml",
+    "build:minimal-pdf": "npx marp -c ./config/marp.minimal.pdf.yml",
+    "build:minimal-html": "npx marp -c ./config/marp.minimal.html.yml",
+    "build:minimal-png": "npx marp -c ./config/marp.minimal.png.yml",
     "build-all": "npm-run-all build:*",
     "build-themes": "npm-run-all build:*-css"
   },
