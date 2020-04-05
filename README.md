@@ -61,7 +61,7 @@ theme: minimal
 |<img src="./themes/minimal/previews/png/slides.010.png" width="200"/>|<img src="./themes/minimal/previews/png/slides.011.png" width="200"/>|<img src="./themes/minimal/previews/png/slides.012.png" width="200"/>|
 |**Code Block**|**Some Larger Code Block**|**Some Inline Math**|
 |<img src="./themes/minimal/previews/png/slides.013.png" width="200"/>|<img src="./themes/minimal/previews/png/slides.014.png" width="200"/>|<img src="./themes/minimal/previews/png/slides.015.png" width="200"/>|
-|Some Math Blocks|**Background Image**|**Split Background (Right)**|
+|**Some Math Blocks**|**Background Image**|**Split Background (Right)**|
 |<img src="./themes/minimal/previews/png/slides.016.png" width="200"/>|<img src="./themes/minimal/previews/png/slides.017.png" width="200"/>|<img src="./themes/minimal/previews/png/slides.018.png" width="200"/>|
 |**Split Background (Left)**|**Split Background (Right Scaled)**|**Multiple Background**|
 |<img src="./themes/minimal/previews/png/slides.019.png" width="200"/>|<img src="./themes/minimal/previews/png/slides.020.png" width="200"/>|<img src="./themes/minimal/previews/png/slides.021.png" width="200"/>|
