@@ -181,7 +181,7 @@ $$O(1) \subset O(n) \subseteq O(n^2)$$
 
 ### Background Image
 
-![bg](./img/640px-Katsushika-hokusai-fuji-from-goten-yama.jpg) 
+![bg opacity](./img/640px-Katsushika-hokusai-fuji-from-goten-yama.jpg) 
 
 * item 1
   * item 2
@@ -217,6 +217,9 @@ $$O(1) \subset O(n) \subseteq O(n^2)$$
 
 ### Multiple Backgrounds
 
-![bg](./img/327px-Hokusai_au_mus%C3%A9e_Guimet_%288207452088%29.jpg)
-![bg](./img/355px-Hokusai_%281828%29_Cuckoo_and_Azaleas.jpg)
-![bg](./img/340px-Katsushika_Hokusai_-_Yoshitsune_Falls%2C_from_the_series_Famous_Waterfalls_in_Various_Provinces_-_Google_Art_Project.jpg)
+![bg opacity:30%](./img/327px-Hokusai_au_mus%C3%A9e_Guimet_%288207452088%29.jpg)
+![bg opacity:30%](./img/355px-Hokusai_%281828%29_Cuckoo_and_Azaleas.jpg)
+![bg opacity:30%](./img/340px-Katsushika_Hokusai_-_Yoshitsune_Falls%2C_from_the_series_Famous_Waterfalls_in_Various_Provinces_-_Google_Art_Project.jpg)
+
+* item 1
+  * item 2
