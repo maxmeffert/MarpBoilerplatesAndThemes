@@ -1,5 +1,5 @@
 {
-  "name": "marpboilerplatesandthemes",
+  "name": "marpme",
   "version": "1.0.0",
   "description": "Repository for Marp Boilderplates and Themes",
   "main": "",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxmeffert/MarpBoilerplatesAndThemes.git"
+    "url": "git+https://github.com/maxmeffert/MarpMe.git"
   },
   "author": "Maximilian Meffert",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maxmeffert/MarpBoilerplatesAndThemes/issues"
+    "url": "https://github.com/maxmeffert/MarpMe/issues"
   },
-  "homepage": "https://github.com/maxmeffert/MarpBoilerplatesAndThemes#readme",
+  "homepage": "https://github.com/maxmeffert/MarpMe#readme",
   "devDependencies": {
     "@marp-team/marp-cli": "^0.17.3",
     "highlight.js": "^9.18.1",
