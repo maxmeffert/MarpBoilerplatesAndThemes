@@ -7,7 +7,8 @@
     "build:minimal-css": "npx sass ./src/minimal/minimal.scss ./themes/minimal.css",
     "build:minimal-pdf": "npx marp -c ./config/marp.minimal.pdf.yml",
     "build:minimal-html": "npx marp -c ./config/marp.minimal.html.yml",
-    "build:minimal-png": "npx marp -c ./config/marp.minimal.png.yml"
+    "build:minimal-png": "npx marp -c ./config/marp.minimal.png.yml",
+    "build": "yarn run build:minimal-css ; yarn run build:minimal-pdf ; yarn run build:minimal-html ; yarn run build:minimal-png"
   },
   "repository": {
     "type": "git",

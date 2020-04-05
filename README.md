@@ -4,7 +4,7 @@ Repository for [Marp](https://marp.app) Boilderplates and Themes
 ##  Build
 
 ```
-npm run build-all
+yarn build
 ```
 
 ---
