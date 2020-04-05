@@ -15,7 +15,7 @@ A minimalistic black & white theme.
 
 ### Download
 
-[minimal.css](./themes/minimal.css)
+[minimal.css](./themes/minimal/minimal.css)
 
 ### Usage
 
