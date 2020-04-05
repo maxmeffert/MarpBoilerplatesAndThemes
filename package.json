@@ -1,7 +1,7 @@
 {
   "name": "marpboilerplatesandthemes",
   "version": "1.0.0",
-  "description": "Repository for Mapr Boilderplates and Themes",
+  "description": "Repository for Marp Boilderplates and Themes",
   "main": "",
   "scripts": {
     "build:minimal-css": "npx sass ./src/minimal/minimal.scss ./themes/minimal.css",
