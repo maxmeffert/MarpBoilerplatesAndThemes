@@ -2,9 +2,10 @@
 section { 
   pre {
     border: 1px solid $code-border-color;
+    border-radius: 27px;
     color: $code-text-color;
     background-color: $code-background-color;
-    padding: 5px;
+    padding: 17px;
 
     code {
       box-sizing: border-box;
@@ -12,7 +13,7 @@ section {
       min-width: 100%;
       padding: 0.5em;
       font-size: 0.7em;
-  
+      
       svg[data-marp-fitting='svg'] {
         max-height: calc(580px - 1em);
       }

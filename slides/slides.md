@@ -136,11 +136,8 @@ using System;
 
 class HelloWorld 
 {
-    public void Main(string[] args) 
-    {
-        Console.WriteLine("Hello World")
-    }
-
+    private static IList List = new LinkedList();
+    
     public void Main(string[] args) 
     {
         Console.WriteLine("Hello World")

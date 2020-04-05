@@ -11,9 +11,11 @@ $slide-font-family: Verdana, Geneva, Tahoma, sans-serif;
 $header-text-size: 12px;
 $footer-text-size: 12px;
 
-$code-background-color: white;
-$code-text-color: black;
+$code-background-color: #fafafa;
+$code-text-color: black; //#181818;
 $code-border-color: black;
+// syntax highlighting
+@import '../../../node_modules/highlight.js/styles/github-gist';
 
 $image-border-color: black;
 
@@ -47,8 +49,6 @@ $blockquote-text-color: rgba($slide-text-color, 0.75);
 $pagination-text-color: rgba($slide-text-color, 0.75);
 $list-item-text-size: $slide-text-size;
 
-// syntax highlighting
-@import '../../../node_modules/highlight.js/styles/vs';
 
 @import './headerfooter.scss';
 @import './slide.scss';
