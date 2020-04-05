@@ -1,4 +1,4 @@
-# MarpBoilerplatesAndThemes
+# MarpMe
 Repository for [Marp](https://marp.app) Boilderplates and Themes
 
 ##  Build
@@ -9,7 +9,7 @@ npm run build-all
 
 ---
 
-## Minimal
+## Minimal Theme
 
 A minimalistic black & white theme.
 
@@ -30,7 +30,7 @@ npx marp --theme minimal.css presentation.md
 ```
 ---
 marp: true
-theme: diabolo
+theme: minimal
 ---
 ```
 
