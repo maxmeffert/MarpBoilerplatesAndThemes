@@ -155,11 +155,12 @@ section hr {
 
 section ul,
 section ol {
+  margin: 0px;
   text-align: left;
 }
 section ul li,
 section ol li {
-  margin: 27px;
+  margin: 7px;
   font-size: 1.5em;
 }
 section ul li li,

@@ -2,9 +2,10 @@
 section {
     ul,
     ol {
+      margin: 0px;
       text-align: left;
       li {
-        margin: 27px;
+        margin: 7px;
         font-size: $list-item-text-size;
         li {
           font-size: 90%; // auto decrease by x percent
