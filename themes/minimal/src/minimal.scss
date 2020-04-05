@@ -48,7 +48,7 @@ $pagination-text-color: rgba($slide-text-color, 0.75);
 $list-item-text-size: $slide-text-size;
 
 // syntax highlighting
-@import '../../node_modules/highlight.js/styles/vs';
+@import '../../../node_modules/highlight.js/styles/vs';
 
 @import './headerfooter.scss';
 @import './slide.scss';

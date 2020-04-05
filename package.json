@@ -4,7 +4,7 @@
   "description": "Repository for Marp Boilderplates and Themes",
   "main": "",
   "scripts": {
-    "build:minimal-css": "npx sass ./themes/src/minimal.scss ./themes/minimal.css",
+    "build:minimal-css": "npx sass ./themes/minimal/src/minimal.scss ./themes/minimal/minimal.css",
     "build:minimal-pdf": "npx marp -c ./config/marp.minimal.pdf.yml",
     "build:minimal-html": "npx marp -c ./config/marp.minimal.html.yml",
     "build:minimal-png": "npx marp -c ./config/marp.minimal.png.yml",

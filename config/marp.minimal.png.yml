@@ -5,5 +5,5 @@ options:
     breaks: false
 images: png
 inputDir: ../slides
-output: ../themes/previews/minimal/png
-theme: ../themes/minimal.css
+output: ../themes/minimal/previews/png
+theme: ../themes/minimal/minimal.css
