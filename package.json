@@ -22,7 +22,7 @@
   "homepage": "https://github.com/maxmeffert/MarpMe#readme",
   "devDependencies": {
     "@marp-team/marp-cli": "^0.17.3",
-    "highlight.js": "^9.18.1",
+    "highlight.js": "^10.1.2",
     "sass": "^1.26.3"
   }
 }
